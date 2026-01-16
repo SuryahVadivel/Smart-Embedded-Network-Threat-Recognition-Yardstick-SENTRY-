@@ -42,25 +42,10 @@ We optimized for **Macro F1-Score** to ensure rare attacks were detected just as
 
 **Conclusion:** The **Random Forest** model using only 25 features was the optimal solution. It outperformed Deep Learning (MLP) and Gradient Boosting (XGBoost) in robustness, achieving a **0.91 F1-score on the rarest attack class**, where other models faltered.
 
-## 🚀 Usage
+##  Usage
 ### Prerequisites
 * Python 3.8+
 * Jupyter Notebook
-
-## Installation
-
-1. Clone this repository:
-```bash
-git clone https://github.com/<SuryahVadivel>/Smart-Embedded-Network-Threat-Recognition-Yardstick-SENTRY.git
-cd Smart-Embedded-Network-Threat-Recognition-Yardstick-SENTRY
-
-2. Install dependencies:
-`pip install -r requirements.txt`
-
-### Running the Project
-Open the Jupyter Notebook:
-`jupyter notebook intrusion-classification-system.ipynb`
-The notebook utilizes the ucimlrepo library to fetch the dataset directly. No manual data download is required.
 
 ### Team Members
 1. Manoranjith Anandan
