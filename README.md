@@ -1,13 +1,18 @@
-# Project SENTRY: Smart Embedded Network Threat Recognition Yardstick 🛡️
+# Project SENTRY: Smart Embedded Network Threat Recognition Yardstick 
 
 **A Machine Learning-driven Intrusion Classification System for IoT Edge Devices.**
 
-## 📖 Overview
+<p align="center">
+  <img src="assets/sentry_architecture.png" width="600"/>
+</p>
+
+
+## Overview
 The Internet of Things (IoT) landscape is exploding, but these resource-constrained devices often lack robust security. **Project SENTRY** is an Intrusion Detection System (IDS) designed to detect sophisticated cyberattacks on IoT networks.
 
 Using the **RT-IoT2022 Benchmark Dataset**, we developed a model that balances high accuracy with the efficiency required for edge deployment. Our solution distinguishes between normal telemetry and 11 specific attack types, including rare threats like `NMAP_FIN_SCAN` and `Metasploit_SSH`.
 
-## 📊 The Data
+## The Data
 We utilized the **RT-IoT2022 Dataset** sourced from the UCI Machine Learning Repository.
 * **Source:** Real-time IoT testbed (ThingSpeak-LED, MQTT-Temp, Wipro-Bulb).
 * **Volume:** 123,117 Network Flows.
@@ -15,7 +20,7 @@ We utilized the **RT-IoT2022 Dataset** sourced from the UCI Machine Learning Rep
     * 76% of data was a single attack type (`DOS_SYN_Hping`).
     * Critical attacks like `NMAP_FIN_SCAN` represented < 0.02% of the data.
 
-## 🛠️ Methodology
+## Methodology
 Our pipeline focused on **Feature Optimization** to reduce computational overhead for edge devices.
 
 1.  **Data Cleaning:** Target-conditional median imputation and removal of zero-variance features.
@@ -25,7 +30,7 @@ Our pipeline focused on **Feature Optimization** to reduce computational overhea
     * **Selected:** Top-25 Features via Random Forest Importance (retained interpretability).
 4.  **Modeling:** Evaluated Logistic Regression, XGBoost, and Random Forest.
 
-## 🏆 Key Results
+## Key Results
 We optimized for **Macro F1-Score** to ensure rare attacks were detected just as reliably as common ones.
 
 | Model | Feature Set | Accuracy | Macro F1-Score | Detection of Rarest Attack (`NMAP_FIN`) |
@@ -55,14 +60,14 @@ Open the Jupyter Notebook:
 `jupyter notebook intrusion-classification-system.ipynb`
 The notebook utilizes the ucimlrepo library to fetch the dataset directly. No manual data download is required.
 
-### 👥 Team Members
+### Team Members
 1. Manoranjith Anandan
 2. Melissa Cai Shi
 3. Bakr Katkhuda
 4. Kumar Rishu
 5. Suryah Vadivel
 
-### 📜 License & Acknowledgments
+### License & Acknowledgments
 Dataset: RT-IoT2022 on UCI Machine Learning Repository.
 
 Course: Advanced Machine Learning Capstone.
