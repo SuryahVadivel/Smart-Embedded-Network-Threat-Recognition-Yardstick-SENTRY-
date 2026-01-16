@@ -58,3 +58,15 @@ We optimized for **Macro F1-Score** to ensure rare attacks were detected just as
 Dataset: RT-IoT2022 on UCI Machine Learning Repository.
 
 Course: Advanced Machine Learning Capstone.
+
+## Blog / Project Write-Up
+
+For a detailed explanation of this project — including methodology, insights, and results — check out the Medium article:
+
+🔗 https://medium.com/@manoranjith.anandan/smart-embedded-network-threat-recognition-yardstick-sentry-4fe73bf38b97
+
+This post covers:
+- Project motivation and approach
+- Model design and implementation
+- Results and key takeaways
+
