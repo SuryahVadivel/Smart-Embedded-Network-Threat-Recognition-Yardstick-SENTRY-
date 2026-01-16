@@ -47,10 +47,12 @@ We optimized for **Macro F1-Score** to ensure rare attacks were detected just as
 * Python 3.8+
 * Jupyter Notebook
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/manoranjith-a/intrusion-classification-system.git](https://github.com/manoranjith-a/intrusion-classification-system.git)
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/<SuryahVadivel>/Smart-Embedded-Network-Threat-Recognition-Yardstick-SENTRY.git
+cd Smart-Embedded-Network-Threat-Recognition-Yardstick-SENTRY
 
 2. Install dependencies:
 `pip install -r requirements.txt`
