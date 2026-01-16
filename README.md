@@ -3,7 +3,7 @@
 **A Machine Learning-driven Intrusion Classification System for IoT Edge Devices.**
 
 <p align="center">
-  <img src="assets/sentry_architecture.png" width="600"/>
+  <img src="sentry_architecture.png" width="600"/>
 </p>
 
 
